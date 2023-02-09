@@ -1,4 +1,4 @@
-package com.tiramisu.driftmaxw
+package com.tiramisu.driftmaxw.gtmtgkngtktgngt
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.tiramisu.driftmaxw.R
 import com.tiramisu.driftmaxw.gjttgjgtgtjitgjt.JIFirfuhhrfrfuh
 import com.tiramisu.driftmaxw.gjttgjgtgtjitgjt.JIFirfuhhrfrfuh.hyjiohyjoihy
 import com.tiramisu.driftmaxw.gjttgjgtgtjitgjt.JIFirfuhhrfrfuh.hykphyjgjigt

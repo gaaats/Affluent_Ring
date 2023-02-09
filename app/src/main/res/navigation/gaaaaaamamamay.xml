@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_paaaager" />
     <fragment
         android:id="@+id/diifffaFragment"
-        android:name="com.tiramisu.driftmaxw.DiifffaFragment"
+        android:name="com.tiramisu.driftmaxw.gtmtgkngtktgngt.DiifffaFragment"
         android:label="fragment_diifffa"
         tools:layout="@layout/fragment_diifffa" >
         <action

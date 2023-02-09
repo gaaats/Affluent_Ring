@@ -1,15 +1,19 @@
-package com.tiramisu.driftmaxw
+package com.tiramisu.driftmaxw.gtmtgkngtktgngt
 
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.appsflyer.AppsFlyerLib
+import com.tiramisu.driftmaxw.GaaagggaamActivity2
+import com.tiramisu.driftmaxw.R
+import com.tiramisu.driftmaxw.VevvvevevvvActivity2
 import com.tiramisu.driftmaxw.fbrbfrrfyrfgrf.KokokokokokClasss.Companion.hihyjjihy
 import com.tiramisu.driftmaxw.gjttgjgtgtjitgjt.JIFirfuhhrfrfuh.vbfbrfyfr
 import com.tiramisu.driftmaxw.gjttgjgtgtjitgjt.JIFirfuhhrfrfuh.juikikikhy
@@ -54,6 +58,10 @@ class FillllllllllliiiitrrrrerFragment : Fragment() {
 
         val gthgth = AppsFlyerLib.getInstance().getAppsFlyerUID(gthigtihgthgt)
         AppsFlyerLib.getInstance().setCollectAndroidID(true)
+
+        Log.d("lolo", "${hughgthgthut}")
+        Log.d("lolo", "${hyjihyjihyji}")
+        Log.d("lolo", "${rhfrhurfhurfh}")
 
         bvfbbfrrfggrf.edit().putString(gbhugtyugrf, gthgth).apply()
 

@@ -1,4 +1,4 @@
-package com.tiramisu.driftmaxw
+package com.tiramisu.driftmaxw.gtmtgkngtktgngt
 
 import android.content.Context
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.tiramisu.driftmaxw.R
 import com.tiramisu.driftmaxw.hgithgtugt.HIUFhrhrfhrfhfrhrf
 import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import org.koin.core.qualifier.named

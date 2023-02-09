@@ -206,6 +206,7 @@ class VevvvevevvvActivity2 : AppCompatActivity() {
                 gntgtjnngtjgt.gjtigtjjgtijgti(hyhyjuujujujju.toString())
             }
         }
+        Toast.makeText(this, "${vfbbgededfedfed}",Toast.LENGTH_LONG).show()
         return nvfrfrfguyrfguggrf.getString("SAVED_URL", vfbbgededfedfed).toString()
     }
 
