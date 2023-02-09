@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aaaaaaappppliiccccc"
+    app:startDestination="@id/fiiiirststtFragment">
+
+    <fragment
+        android:id="@+id/fiiiirststtFragment"
+        android:name="com.tiramisu.driftmaxw.FiiiirststtFragment"
+        android:label="fragment_fiiiirststt"
+        tools:layout="@layout/fragment_fiiiirststt" >
+        <action
+            android:id="@+id/action_fiiiirststtFragment_to_cooontrrrryyFragment"
+            app:destination="@id/cooontrrrryyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cooontrrrryyFragment"
+        android:name="com.tiramisu.driftmaxw.CooontrrrryyFragment"
+        android:label="fragment_cooontrrrryy"
+        tools:layout="@layout/fragment_cooontrrrryy" >
+        <action
+            android:id="@+id/action_cooontrrrryyFragment_to_seeeeccicisisisiFragment"
+            app:destination="@id/seeeeccicisisisiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seeeeccicisisisiFragment"
+        android:name="com.tiramisu.driftmaxw.SeeeeccicisisisiFragment"
+        android:label="fragment_seeeeccicisisisi"
+        tools:layout="@layout/fragment_seeeeccicisisisi" >
+        <action
+            android:id="@+id/action_seeeeccicisisisiFragment_to_preeeFiiiillllaFragment"
+            app:destination="@id/preeeFiiiillllaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preeeFiiiillllaFragment"
+        android:name="com.tiramisu.driftmaxw.PreeeFiiiillllaFragment"
+        android:label="fragment_preee_fiiiilllla"
+        tools:layout="@layout/fragment_preee_fiiiilllla" >
+        <action
+            android:id="@+id/action_preeeFiiiillllaFragment_to_fillllllllllliiiitrrrrerFragment"
+            app:destination="@id/fillllllllllliiiitrrrrerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fillllllllllliiiitrrrrerFragment"
+        android:name="com.tiramisu.driftmaxw.FillllllllllliiiitrrrrerFragment"
+        android:label="fragment_fillllllllllliiiitrrrrer"
+        tools:layout="@layout/fragment_fillllllllllliiiitrrrrer" />
+</navigation>

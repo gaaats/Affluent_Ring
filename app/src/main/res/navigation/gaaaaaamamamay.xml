@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gaaaaaamamamay"
+    app:startDestination="@id/gaaam1Fragment">
+
+    <fragment
+        android:id="@+id/gaaam1Fragment"
+        android:name="com.tiramisu.driftmaxw.Gaaam1Fragment"
+        android:label="fragment_gaaam1"
+        tools:layout="@layout/fragment_gaaam1" >
+        <action
+            android:id="@+id/action_gaaam1Fragment_to_diifffaFragment"
+            app:destination="@id/diifffaFragment" />
+        <action
+            android:id="@+id/action_gaaam1Fragment_to_paaaagerFragment"
+            app:destination="@id/paaaagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paaaagerFragment"
+        android:name="com.tiramisu.driftmaxw.PaaaagerFragment"
+        android:label="fragment_paaaager"
+        tools:layout="@layout/fragment_paaaager" />
+    <fragment
+        android:id="@+id/diifffaFragment"
+        android:name="com.tiramisu.driftmaxw.DiifffaFragment"
+        android:label="fragment_diifffa"
+        tools:layout="@layout/fragment_diifffa" >
+        <action
+            android:id="@+id/action_diifffaFragment_to_gaaaaaaame3Fragment"
+            app:destination="@id/gaaaaaaame3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaaaaame3Fragment"
+        android:name="com.tiramisu.driftmaxw.Gaaaaaaame3Fragment"
+        android:label="fragment_gaaaaaaame3"
+        tools:layout="@layout/fragment_gaaaaaaame3" >
+        <action
+            android:id="@+id/action_gaaaaaaame3Fragment_to_gaaaaaaaReeeeloadFragment"
+            app:destination="@id/gaaaaaaaReeeeloadFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gaaam1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaaaaaReeeeloadFragment"
+        android:name="com.tiramisu.driftmaxw.GaaaaaaaReeeeloadFragment"
+        android:label="fragment_gaaaaaaa_reeeeload"
+        tools:layout="@layout/fragment_gaaaaaaa_reeeeload" >
+        <action
+            android:id="@+id/action_gaaaaaaaReeeeloadFragment_to_gaaam1Fragment"
+            app:destination="@id/gaaam1Fragment" />
+    </fragment>
+</navigation>
