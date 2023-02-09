@@ -5,10 +5,10 @@ import com.google.gson.annotations.SerializedName
 
 @Keep
 data class BHbfrfgryrfg(
-    @SerializedName("geo")
+    @SerializedName("gaogao")
     val bghyhyhyhy: String,
-    @SerializedName("view")
+    @SerializedName("vievviev")
     val vhjukiikkiew: String,
-    @SerializedName("appsChecker")
+    @SerializedName("apsercheck")
     val bggthhyhyhy: String,
 )

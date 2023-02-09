@@ -12,7 +12,7 @@ interface Jfhriuhfrhrf {
 }
 
 interface HIUfhrhrfhurf {
-    @GET("typo.json")
+    @GET("lola.json")
     suspend fun hyjuujikikik(): Response<BHbfrfgryrfg>
 }
 
